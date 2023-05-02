@@ -178,9 +178,9 @@ p {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: rgb(185, 182, 185);
+    background: rgb(0, 0, 0);
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
-    color: #e2e2e2;
+    color: #ffffff;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
@@ -190,7 +190,7 @@ p {
 .button-to-top--visible {
     opacity: 1;
     visibility: visible;
-    color: #000000;
+    color: #ffffff;
 }
 
 .buttonLoadMore:hover,
@@ -200,6 +200,15 @@ p {
     color: #000000;
     background-color: #f0f0f0;
 }
+
+.button-to-top:hover 
+{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    color: #000000;
+    background-color: #f0f0f0;
+}
+
 .title {
     font-size: 20px;
     font-weight: lighter;
